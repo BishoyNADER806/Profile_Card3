@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="bg-scene">
+        <div class="circle c1"></div>
+        <div class="circle c2"></div>
+        <div class="circle c3"></div>
+        <div class="circle c4"></div>
+        <div class="circle c5"></div>
+        <div class="circle c6"></div>
+        <div class="circle c7"></div>
+        <div class="circle c8"></div>
+        <div class="circle c9"></div>
+        <div class="circle c10"></div>
+        <div class="circle c11"></div>
+        <div class="circle c12"></div>
+    </div>
+
+    <div class="wrapper">
+        <div class="card-profile">
+            <span class="circle-dot lft dot-pink"></span>
+            <span class="circle-dot rgt dot-pink"></span>
+            <div class="img-holder">
+                <img src="" alt="Profile Image" id="profileImage">
+            </div>
+            <h2 class="name" id="profileName">Loading...</h2>
+            <p class="city" id="profileCity">Loading...</p>
+            <p class="job" id="profileJob">Loading...</p>
+            <div class="details">
+                <div>
+                    <p class="number">0</p>
+                    <p class="label">Posts</p>
+                </div>
+                <div>
+                    <p class="number">0</p>
+                    <p class="label">Followers</p>
+                </div>
+                <div>
+                    <p class="number">0</p>
+                    <p class="label">Following</p>
+                </div>
+            </div>
+            <button id="logoutButton" class="logout-button">Logout</button>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="auth.js"></script>
+</body>
+</html> 
